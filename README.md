@@ -14,12 +14,6 @@
 
 - Do not run both dev and test environments at the same time!
 
-### books.js, authors.js
-
-[x] Added post and delete routes in books.js and authors.js.
-[x] Created create and destroy functions inside authors.js, as these were missing.
-[x] Updated more inconsistencies in book.js and author.js.
-
 ## Bugs
 
 [] startDev.sh command ends with npm ERR! enoent ENOENT: no such file or directory, open '/package.json'
