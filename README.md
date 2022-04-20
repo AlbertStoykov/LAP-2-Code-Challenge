@@ -14,19 +14,6 @@
 
 - Do not run both dev and test environments at the same time!
 
-## Changelog
-
-- Created workREADME file to log usage, changes, bugs, challenges etc.
-- Updated docker-compose.yaml, which made "docker compose up" to work properly in the console.
-- Installed dependencies.
-- Found db name and password in test.yaml and dev.yaml, updated docker-compose.yaml.
-- Updated Error Status Codes.
-- Added routes in books.js and authors.js, changed "" to `` in author.js
-- Added create, destroy functions inside author.js, as these were missing.
-- moved client folder inside mca-client.
-- Replaced innerHTML with textContent to improve security.
-- Found and tried to update more inconsistencies in book.js and author.js
-
 ### books.js, authors.js
 
 [x] Added post and delete routes in books.js and authors.js.
