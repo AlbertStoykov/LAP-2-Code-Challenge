@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #202124;
+  color: #e8eaed;
+}
+
+[contentEditable="true"]:not(:focus):before {
+  content: attr(data-text);
+}
+
+#form {
+  position: relative;
+  width: 30px;
+  margin: 10% 35% auto;
+}
+
+input {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  width: 200px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  border: none;
+  border-radius: 15px;
+
+  background: transparent;
+  outline: none;
+  color: #e8eaed;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #303134;
+  color: #e8eaed;
+}
+
+::placeholder {
+  color: #e8eaed;
+}
+
+input:focus::placeholder {
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+textarea {
+  font-family: "Lato", sans-serif;
+  background: #202124;
+  color: #e8eaed;
+  width: 270px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 410px;
+  padding: 15px;
+  font-size: 0.875em;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #303134;
+  color: #303134;
+}
+
+.button {
+  background-color: #303134;
+  border: none;
+  color: #e8eaed;
+  padding: 20px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #303134;
+  color: #e8eaed;
+}
