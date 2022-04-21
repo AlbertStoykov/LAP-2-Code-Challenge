@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE IF NOT EXISTS posts
+(
+    post_id BIGINT(20) NOT NULL PRIMARY KEY,
+    title VARCHAR(75) NOT NULL,
+    content VARCHAR(255) NOT NULL,
+    user_id BIGINT(20)
+);
